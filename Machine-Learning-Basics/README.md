@@ -1,0 +1,158 @@
+# Machine Learning Process
+
+<p align="center">
+<img src="https://github.com/SamBelkacem/Machine-Learning-Basics/blob/main/Images/Machine%20Learning%20Process.png" width="1100">
+</p>
+
+The machine learning process involves the following steps:
+
+  - **1-  Data Preparation:** Collect, clean, and preprocess data.
+  - **2-  Data Visualization and Analysis:** Visualize and analyze data to identify patterns and relationships.
+  - **3-  Feature Engineering:** Select and transform relevant variables in the data.
+  - **4-  Model Selection:** Choose the best model for the problem.
+  - **5-  Model Training:** Feed data into the model and adjust parameters to minimize error.
+  - **6-  Hyperparameter Tuning:** Set hyperparameters to optimize model performance.
+  - **7-  Model Evaluation:** Measure accuracy, precision, recall, and other performance metrics.
+  - **8-  Model Deployment:** Integrate the model into an application and set up a pipeline to feed new data.
+
+# Machine Learning Tutorial
+
+<p align="center">
+<img src="https://github.com/SamBelkacem/Machine-Learning-Basics/blob/main/Images/Machine%20Learning%20Tutorial.png" width="650">
+</p>
+
+This tutorial covers Machine Learning Basics using ``Python``.
+
+The repository includes Python notebooks, reference guides, and cheatsheets for the entire Machine Learning process:
+
+  - **1- Data preprocessing and analysis:** clean and transform data into a format suitable for analysis using ``NumPy`` and ``Pandas``.
+  - **2- Data visualization:** understand and explore data visually using ``Matplotlib`` and ``Seaborn``.
+  - **3- Machine learning:** explore various algorithms in ``Scikit-learn`` such as regression, classification, and clustering.
+  - **4- Feature engineering:** feature encoding, feature scaling, feature selection, etc.
+  - **5- Model selection:** comparison of ML algorithms, how to choose a ML algorithm, etc.
+  - **6- Hyperparameters tuning:** Grid Search, Random Search, and Bayesian Optimization.
+  - **7- Model evaluation:** validation methods, evaluation metrics, etc.
+  - **8- Model explainability:** feature importance, interpretable models, etc.
+
+The repository also includes two Python notebooks of two popular examples to get started with Machine Learning: 
+
+  - **Classification - Titanic Survival Prediction:** Predict whether a passenger on the Titanic ship survived or not based on various features such as their age, gender, ticket class, and cabin location ([notebook](https://colab.research.google.com/drive/14RaCJdn6YZ57xJvBGYs3aZsaHkKSnI-Z?usp=sharing)). 
+  - **Regression - Boston House Price Prediction:** Predict the median value of houses in Boston neighborhoods based on various features such as crime rate, number of rooms, proximity to employment centers, and accessibility to highways ([notebook](https://colab.research.google.com/drive/1nMHTMbk1IlzHW7pUqfOkxDmJ6FliO46n?usp=sharing)).
+
+The end of the GitHub repository provides resources and links to practice and advance with Machine Learning:
+
+  - The most popular ML dataset platforms.
+  - The most popular ML competition platforms.
+  - A guide to tackle ML competitions ([PDF](https://github.com/SamBelkacem/Machine-Learning-Basics/blob/main/Machine%20learning%20competitions.pdf)).
+
+# Requirements
+
+<p align="center">
+<img src="https://github.com/SamBelkacem/Machine-Learning-Basics/blob/main/Images/Requirements.png" width="800">
+</p>
+
+**Tools:**
+
+  - Python 3
+  - **Jupyter Notebook:** web-based interactive computing platform
+  - **Google Colab:** cloud-based Jupyter Notebook environment
+
+**Concepts:**
+  
+  - Mathematics ([refresher](https://github.com/SamBelkacem/AI-ML-cheatsheets/tree/main/01-%20Mathematics))
+  - Python programming ([refresher](https://github.com/SamBelkacem/AI-ML-cheatsheets/tree/main/03-%20Python), [notebook](https://colab.research.google.com/drive/1VxJ1bBuqus75LaQo94yqtWpFqd1zW5cm?usp=sharing), [guide GDSC](https://github.com/SamBelkacem/Machine-Learning-Basics/blob/main/Python%20Guide%20(GDSC).pdf))
+  - Data Structures ([refresher](https://github.com/SamBelkacem/AI-ML-cheatsheets/tree/main/05-%20Data%20structures))
+
+ **Python libraries:**
+
+  - **NumPy:** A library for efficient numerical operations and multidimensional arrays, widely used in scientific computing and data analysis.
+  - **Pandas:** A data manipulation and analysis library, providing data structures and functions to easily handle and process structured data.
+  - **Matplotlib:** A popular plotting library used for creating static, animated, and interactive visualizations.
+  - **Seaborn:** A data visualization library based on Matplotlib, providing high-level functions for creating attractive statistical graphics.
+  - **Scikit-learn:** A data analysis and modeling library, including ML algorithms for various tasks: classification, regression, clustering, etc.
+
+# Structure of the tutorial
+
+  - 1- &nbsp; Machine learning basic concepts 
+  - 2- &nbsp; Read input data in ``Python``
+  - 3- &nbsp; Data preprocessing and analysis: ``Numpy`` and ``Pandas``
+  - 4- &nbsp; Data visualization: ``Matplotlib`` and ``Seaborn``
+  - 5- &nbsp; Machine learning: ``Scikit-learn``
+  - 6- &nbsp; Feature engineering
+  - 7- &nbsp; Model selection and parameter tuning
+  - 8- &nbsp; Model evaluation and explainability
+  - 9- &nbsp; Practice: Machine learning datasets
+  - 10- Practice: Machine learning competitions
+
+# Content of the tutorial
+
+**1- Machine learning basic concepts** 
+ 
+  - Presentation on Machine learning basic concepts ([PDF](https://courses.edx.org/asset-v1:ColumbiaX+CSMM.101x+1T2017+type@asset+block@AI_edx_ml_5.1intro.pdf))
+
+**2- Read input data in ``Python``**
+
+  - Tutorial to read various sources in a DataFrame ([notebook](https://nbviewer.org/github/tirthajyoti/Machine-Learning-with-Python/blob/master/Pandas%20and%20Numpy/Read_data_various_sources/How%20to%20read%20various%20sources%20in%20a%20DataFrame.ipynb))
+
+**3- Data preprocessing and analysis: ``Numpy`` and ``Pandas``**
+
+  - Numpy cheatsheet ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/03-%20Python/5-%20Numpy%20cheatsheet.pdf))
+  - Numpy tutorial ([notebook](https://colab.research.google.com/drive/1VV9eM4wtvdnKmm3DAY0MOKsDbtagFvxU?usp=sharing))
+  - Pandas cheatsheet ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/03-%20Python/6-%20Pandas%20cheatsheet%201.pdf))
+  - Pandas tutorial ([notebook](https://colab.research.google.com/drive/1AkXuLnrd4_i5dfBSyUrnsV82amc9bIy3?usp=sharing))
+  - Data preprocessing tutorial ([notebook](https://colab.research.google.com/drive/1ZSakfUCQzeoOt4Z6Q6eHSpjt1DNJL3nx?usp=sharing))
+  
+**4- Data visualization: ``Matplotlib`` and ``Seaborn``**
+
+  - Chart chooser ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/09-%20Data%20visualization/4-%20The%20chart%20chooser.pdf))
+  - Matplotlib cheatsheet ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/03-%20Python/7-%20Matplotlib%20cheatsheet%202.pdf))
+  - Matplotlib tutorial ([WEB](https://matplotlib.org/stable/plot_types/))
+  - Seaborn tutorial ([WEB](https://seaborn.pydata.org/tutorial.html))
+  - Data visualization tutorial ([notebook](https://colab.research.google.com/drive/1pb8_uzSOx0NBdKPLp_k02eif8ES3Hj4x?usp=sharing))
+ 
+ **5- Machine learning: ``Scikit-learn``**
+
+  - Machine learning map ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/12-%20Machine%20learning/1-%20Machine-learning-map.png))
+  - Scikit-learn cheatsheet ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/03-%20Python/8-%20Scikit-Learn%20cheatsheet.pdf))
+  - Scikit-learn tutorial ([notebook](https://nbviewer.org/github/jakevdp/sklearn_tutorial/blob/master/notebooks/Index.ipynb))
+  - Machine learning tutorial ([notebook](https://colab.research.google.com/github/ageron/handson-ml3/blob/main/index.ipynb))
+  - Classification: Titanic Survival Prediction ([notebook](https://colab.research.google.com/drive/14RaCJdn6YZ57xJvBGYs3aZsaHkKSnI-Z?usp=sharing))
+  - Regression: Boston House Price Prediction ([notebook](https://colab.research.google.com/drive/1nMHTMbk1IlzHW7pUqfOkxDmJ6FliO46n?usp=sharing))
+
+**6- Feature engineering**
+
+  - Data cleaning guide ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/08-%20Data%20cleaning/Data-cleaning-guide.pdf))
+  - Data preparation cheatsheet ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/08-%20Data%20cleaning/Data-preparation-cheatsheet.pdf))
+  - Feature engineering ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/08-%20Data%20cleaning/Feature%20engineering.pdf))
+  - Feature engineering tutorial ([notebook](https://github.com/rasgointelligence/feature-engineering-tutorials))
+  - Feature selection methods ([IMG](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/08-%20Data%20cleaning/Feature-selection-methods.png))
+  
+**7- Model selection and parameter tuning**
+
+  - Comparison of ML algorithms 1 ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/12-%20Machine%20learning/4-%20Comparison%20of%20ML%20algorithms%203.pdf))
+  - Comparison of ML algorithms 2 ([IMG](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/12-%20Machine%20learning/4-%20Comparison%20of%20ML%20algorithms%204.png))
+  - Comparison of ML algorithms 3 ([IMG](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/12-%20Machine%20learning/4-%20Comparison%20of%20ML%20algorithms%205.png))
+  - How to choose a ML algorithm ([IMG](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/12-%20Machine%20learning/3-%20How%20to%20choose%20a%20ML%20algorithm%201.png))
+  - Hyperparameter tuning ([WEB](https://www.jeremyjordan.me/hyperparameter-tuning/))
+
+**8- Model evaluation and explainability**
+
+  - Evaluation metrics cheatsheet ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/14-%20Metrics%20to%20evaluate%20machine%20learning%20algorithms/Metrics-machine-learning.pdf))
+  - Evaluation metrics in Python ([WEB](https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/))
+  - Model explainability cheatsheet ([PDF](https://github.com/SamBelkacem/AI-ML-cheatsheets/blob/main/12-%20Machine%20learning/7-%20Machine%20learning%20explainability.pdf))
+
+**9- Practice: Machine learning datasets**
+
+  - UCI Machine Learning Repository: https://archive.ics.uci.edu/
+  - Kaggle datasets: https://www.kaggle.com/datasets
+  - Awesome Public Datasets: https://github.com/awesomedata/awesome-public-datasets
+  - Google Dataset Search: https://datasetsearch.research.google.com/
+  - OpenML Datasets: https://www.openml.org/
+  - Papers With Code: https://paperswithcode.com/datasets
+
+**10- Practice: Machine learning competitions**
+
+  - Kaggle: https://www.kaggle.com/competitions
+  - DrivenData: https://www.drivendata.org
+  - Zindi Africa: https://zindi.africa/competitions
+  - Guide to tackle ML competitions ([PDF](https://github.com/SamBelkacem/Machine-Learning-Basics/blob/main/Machine%20learning%20competitions.pdf))
